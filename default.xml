@@ -510,6 +510,15 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
+<!-- XIAOMI -->
+  <project path="device/xiaomi/kenzo" name="LineageOS/android_device_xiaomi_kenzo" />
+  <project path="device/xiaomi/msm8956-common" name="LineageOS/android_device_xiaomi_msm8956-common" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+  <project path="kernel/xiaomi/msm8956" name="umang96/radon-kenzo" revision="radon-cm-ng" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="vendor/xiaomi" name="ResurrectionRemix-Devices/proprietary_vendor_xiaomi" revision="nougat" />
+<!-- END XIAOMI -->  
+  
   <include name="snippets/cm.xml" />
 
 </manifest>
